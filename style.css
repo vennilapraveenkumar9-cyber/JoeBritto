@@ -289,9 +289,11 @@ gap:30px;
 .stat-card{
 
 ```
-background:rgba(255,255,255,0.05);
+background:#ffffff;
 
-border:1px solid rgba(255,255,255,0.1);
+border:1px solid rgba(37,99,235,0.12);
+
+box-shadow:0 10px 30px rgba(37,99,235,0.08);
 
 backdrop-filter:blur(20px);
 
@@ -373,9 +375,11 @@ background:rgba(255,255,255,0.03);
 .about-content{
 
 ```
-background:rgba(255,255,255,0.05);
+background:#ffffff;
 
-border:1px solid rgba(255,255,255,0.1);
+border:1px solid rgba(37,99,235,0.12);
+
+box-shadow:0 10px 30px rgba(37,99,235,0.08);
 
 padding:35px;
 
@@ -408,9 +412,11 @@ gap:30px;
 .glass-card{
 
 ```
-background:rgba(255,255,255,0.05);
+background:#ffffff;
 
-border:1px solid rgba(255,255,255,0.1);
+border:1px solid rgba(37,99,235,0.12);
+
+box-shadow:0 10px 30px rgba(37,99,235,0.08);
 
 border-radius:25px;
 
@@ -465,9 +471,11 @@ gap:25px;
 .facility-card{
 
 ```
-background:rgba(255,255,255,0.05);
+background:#ffffff;
 
-border:1px solid rgba(255,255,255,0.1);
+border:1px solid rgba(37,99,235,0.12);
+
+box-shadow:0 10px 30px rgba(37,99,235,0.08);
 
 border-radius:20px;
 
@@ -475,6 +483,8 @@ text-align:center;
 
 padding:35px;
 
+font-weight:600;
+    
 transition:.4s;
 ```
 
@@ -512,9 +522,11 @@ gap:30px;
 .leader-card{
 
 ```
-background:rgba(255,255,255,0.05);
+background:#ffffff;
 
-border:1px solid rgba(255,255,255,0.1);
+border:1px solid rgba(37,99,235,0.12);
+
+box-shadow:0 10px 30px rgba(37,99,235,0.08);
 
 border-radius:20px;
 
@@ -554,9 +566,11 @@ max-width:850px;
 
 margin:auto;
 
-background:rgba(255,255,255,0.05);
+background:#ffffff;
 
-border:1px solid rgba(255,255,255,0.1);
+border:1px solid rgba(37,99,235,0.12);
+
+box-shadow:0 10px 30px rgba(37,99,235,0.08);
 
 border-radius:25px;
 
@@ -576,9 +590,11 @@ max-width:850px;
 
 margin:auto;
 
-background:rgba(255,255,255,0.05);
+background:#ffffff;
 
-border:1px solid rgba(255,255,255,0.1);
+border:1px solid rgba(37,99,235,0.12);
+
+box-shadow:0 10px 30px rgba(37,99,235,0.08);
 
 border-radius:25px;
 
