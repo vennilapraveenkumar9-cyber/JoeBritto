@@ -75,7 +75,9 @@ color:white;
 transition:.3s;
 }
 
-.nav-links a:hover
+.nav-links a:hover{
+    color:#00e5ff;
+}
 
 /* ==========================
 HERO
