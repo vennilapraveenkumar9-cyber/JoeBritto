@@ -124,6 +124,41 @@ animation:floatGlow 8s ease-in-out infinite;
 
 }
 
+.hero-image-placeholder{
+
+    position:absolute;
+
+    left:80px;
+
+    top:50%;
+
+    transform:translateY(-50%);
+
+    width:500px;
+
+    height:500px;
+
+    border:3px dashed #2563eb;
+
+    border-radius:30px;
+
+    background:rgba(37,99,235,0.05);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:#2563eb;
+
+    font-weight:700;
+
+    font-size:1.2rem;
+
+    z-index:2;
+}
+
 @keyframes floatGlow{
 
 ```
