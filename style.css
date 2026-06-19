@@ -128,15 +128,13 @@ animation:floatGlow 8s ease-in-out infinite;
 
     position:absolute;
 
-    left:80px;
+    left:50px;
 
-    top:50%;
+    top:200px;
 
-    transform:translateY(-50%);
+    width:550px;
 
-    width:500px;
-
-    height:500px;
+    height:400px;
 
     border:3px dashed #2563eb;
 
@@ -153,10 +151,6 @@ animation:floatGlow 8s ease-in-out infinite;
     color:#2563eb;
 
     font-weight:700;
-
-    font-size:1.2rem;
-
-    z-index:2;
 }
 
 @keyframes floatGlow{
