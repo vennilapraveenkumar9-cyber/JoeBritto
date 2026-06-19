@@ -141,9 +141,11 @@ animation:floatGlow 8s ease-in-out infinite;
 }
 
 .hero-content{
-max-width:900px;
-position:relative;
-z-index:5;
+    max-width:900px;
+    position:relative;
+    z-index:5;
+
+    transform:translateY(-80px);
 }
 
 .hero-tag{
