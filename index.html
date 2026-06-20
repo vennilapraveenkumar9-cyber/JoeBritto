@@ -8,30 +8,26 @@
 </head>
 <body>
 
-    <!-- NAVBAR -->
     <nav class="navbar">
-    <div class="logo-box">LOGO</div>
-    <ul class="nav-links">
-        <!-- Changed href from "/index.html" to just "/" -->
-        <li><a href="/">Home</a></li>
-        <li><a href="/html_files/impact.html">Impact</a></li>
-        <li><a href="/html_files/about.html">About</a></li>
-        <li><a href="/html_files/facilities.html">Facilities</a></li>
-        <li><a href="/html_files/donate.html">Donate</a></li>
-        <li><a href="/pages/gallery.html">Gallery</a></li>
-        <li><a href="/html_files/contact.html">Contact</a></li>
-    </ul>
-</nav>
+        <a href="/" style="display: flex; align-items: center; text-decoration: none;">
+            <img src="assets/logo_ce.png" alt="Joe Andrea Illam Logo" style="height: 55px; width: auto; max-width: 100%; object-fit: contain;">
+        </a>
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/html_files/impact.html">Impact</a></li>
+            <li><a href="/html_files/about.html">About</a></li>
+            <li><a href="/html_files/facilities.html">Facilities</a></li>
+            <li><a href="/html_files/donate.html">Donate</a></li>
+            <li><a href="/pages/gallery.html">Gallery</a></li>
+            <li><a href="/html_files/contact.html">Contact</a></li>
+        </ul>
+    </nav>
 
-    <!-- HERO SECTION -->
-    <!-- UPDATE THIS HERO SECTION INSIDE YOUR OUTSIDE index.html -->
     <section class="hero">
         <div class="hero-glow"></div>
         <div class="hero-content">
-            <!-- Put the tagline inside the small welcome tag box -->
             <span class="hero-tag">Nurturing Futures, Changing Lives</span>
             
-            <!-- Made the name the big, bold, catchy headline -->
             <h1 style="font-size: 3.5rem; font-weight: 900; letter-spacing: -1px;">Joe Andrea Illam</h1>
             
             <p>Providing a safe haven, quality education, and a hopeful tomorrow for underprivileged children since 1998.</p>
@@ -42,7 +38,6 @@
         </div>
     </section>
 
-    <!-- BRIEF ABOUT US SECTION -->
     <section class="about-summary-section" style="background: #ffffff;">
         <div class="about-container">
             <div class="about-content">
@@ -51,24 +46,21 @@
                 <p style="font-size: 1.1rem; margin-bottom: 15px;">Today, the organization supports approximately 85 children by providing free accommodation, food, education, healthcare, clothing, and personal development opportunities.</p>
                 <p style="font-size: 1.1rem; font-weight: 600; color: #0f172a;">Our goal is to help needy children grow into educated, responsible, and successful individuals while providing a safe and nurturing environment.</p>
             </div>
-            <div class="image-placeholder" style="min-height: 350px;">
-                HOME PAGE WELCOME PHOTO
+            <div class="image-box-container" style="min-height: 350px; display: flex; align-items: center; justify-content: center; overflow: hidden; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.08);">
+                <img src="assets/entrenece.png" alt="Joe Andrea Illam Entrance" style="width: 100%; height: 350px; object-fit: cover; display: block;">
             </div>
         </div>
     </section>
 
-    <!-- MISSION & VISION SECTIONS -->
     <section class="mission-vision-section" style="background: rgba(37, 99, 235, 0.02); border-top: 1px solid rgba(37, 99, 235, 0.05); border-bottom: 1px solid rgba(37, 99, 235, 0.05);">
         <h2 class="section-title">Our Purpose</h2>
         <div class="mission-grid">
-            <!-- Mission Card -->
             <div class="glass-card">
                 <h3 style="color: #2563eb; margin-bottom: 15px; font-size: 1.5rem; display: flex; align-items: center; gap: 10px;">
                     🎯 Our Mission
                 </h3>
                 <p style="color: #475569; font-size: 1.05rem;">To rescue, shelter, and empower vulnerable children by breaking the cycle of poverty through holistic care, stable emotional tracking, and robust educational structures.</p>
             </div>
-            <!-- Vision Card -->
             <div class="glass-card">
                 <h3 style="color: #2563eb; margin-bottom: 15px; font-size: 1.5rem; display: flex; align-items: center; gap: 10px;">
                     👁️ Our Vision
@@ -78,7 +70,6 @@
         </div>
     </section>
 
-    <!-- CORE PILLARS SECTION (ADDED TO EXTEND AND ENHANCE HOMEPAGE) -->
     <section class="pillars-section" style="background: #ffffff;">
         <h2 class="section-title">How We Support</h2>
         <div class="facility-grid">
@@ -105,12 +96,11 @@
         </div>
     </section>
 
-    <!-- FOOTER -->
-    <!-- FINAL UPDATED FOOTER -->
     <footer class="footer" style="padding: 40px 20px; background: #0f172a; color: #ffffff; text-align: center;">
-        <div class="footer-logo" style="font-size: 1.5rem; font-weight: bold; margin-bottom: 15px; color: #2563eb;">LOGO</div>
+        <div class="footer-logo" style="margin-bottom: 20px;">
+            <img src="assets/logo_ce.png" alt="Joe Andrea Illam Footer Logo" style="height: 50px; width: auto; opacity: 0.85; filter: drop-shadow(0px 2px 4px rgba(0,0,0,0.5));">
+        </div>
         
-        <!-- Social Media Icon Links Block -->
         <div class="social-links" style="margin-bottom: 20px; display: flex; justify-content: center; align-items: center; gap: 25px; flex-wrap: wrap;">
             <a href="https://www.facebook.com/share/1VLfPqakQE/" target="_blank" style="color: #94a3b8; text-decoration: none; font-weight: 600; font-size: 1.1rem; transition: color 0.3s;" onmouseover="this.style.color='#1877F2'" onmouseout="this.style.color='#94a3b8'">
                 📘 Facebook
@@ -130,4 +120,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-
