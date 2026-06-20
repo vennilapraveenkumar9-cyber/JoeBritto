@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Home Page -->
+    <url>
+        <loc>https://joe-andrea-illam.onrender.com/</loc>
+        <priority>1.00</priority>
+    </url>
+    <!-- About Page -->
+    <url>
+        <loc>https://joe-andrea-illam.onrender.com/html_files/about.html</loc>
+        <priority>0.80</priority>
+    </url>
+    <!-- Impact Page -->
+    <url>
+        <loc>https://joe-andrea-illam.onrender.com/html_files/impact.html</loc>
+        <priority>0.80</priority>
+    </url>
+    <!-- Facilities Page -->
+    <url>
+        <loc>https://joe-andrea-illam.onrender.com/html_files/facilities.html</loc>
+        <priority>0.80</priority>
+    </url>
+    <!-- Donate Page -->
+    <url>
+        <loc>https://joe-andrea-illam.onrender.com/html_files/donate.html</loc>
+        <priority>0.80</priority>
+    </url>
+    <!-- Gallery Page -->
+    <url>
+        <loc>https://joe-andrea-illam.onrender.com/pages/gallery.html</loc>
+        <priority>0.70</priority>
+    </url>
+    <!-- Contact Page -->
+    <url>
+        <loc>https://joe-andrea-illam.onrender.com/html_files/contact.html</loc>
+        <priority>0.80</priority>
+    </url>
+</urlset>
