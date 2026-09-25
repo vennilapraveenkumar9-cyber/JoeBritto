@@ -6,12 +6,39 @@
     <title>Gallery | Joe Andrea Illam</title>
     <!-- Points perfectly back to style.css outside the pages folder -->
     <link rel="stylesheet" href="../style.css">
+    <style>
+        /* ---- Gallery-only styles (safe to leave here, doesn't touch style.css) ---- */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .gallery-grid img {
+            width: 100%;
+            height: 260px;
+            object-fit: cover;
+            border-radius: 14px;
+            display: block;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            transition: transform .3s ease, box-shadow .3s ease;
+        }
+        .gallery-grid img:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 15px 30px rgba(37, 99, 235, 0.2);
+        }
+        .gallery-empty {
+            text-align: center;
+            color: #64748b;
+            font-weight: 600;
+            padding: 40px 0;
+        }
+    </style>
 </head>
 <body>
 
     <!-- NAVBAR -->
     <nav class="navbar">
-        <!-- Replaced text placeholder with correctly scaled linked logo image -->
         <a href="/" style="display: flex; align-items: center; text-decoration: none; padding: 5px 0;">
             <img src="../assets/logo_ce.png" alt="Joe Andrea Illam Logo" style="height: 75px !important; width: auto !important; max-width: 100% !important; object-fit: contain;">
         </a>
@@ -30,61 +57,18 @@
     <section class="hero" style="padding-top: 190px !important;">
         <div class="hero-glow"></div>
         <div class="hero-content">
-            <span class="hero-tag">
-                Photo Gallery
-            </span>
-            <h1>
-                Memories & Activities
-            </h1>
-            <p>
-                Explore events, facilities, volunteer support and the daily life of children at Joe Andrea Illam.
-            </p>
+            <span class="hero-tag">Photo Gallery</span>
+            <h1>Memories & Activities</h1>
+            <p>Explore events, facilities, volunteer support and the daily life of children at Joe Andrea Illam.</p>
         </div>
     </section>
 
-    <!-- EVENTS SECTION -->
-    <section id="events" style="padding: 60px 5%; max-width: 1200px; margin: 0 auto;">
-        <h2 class="section-title">
-            Events
-        </h2>
-        <div class="facility-grid" style="margin-top: 30px;">
-            <div class="image-placeholder" style="min-height: 250px; border-radius: 12px; display: flex; align-items: center; justify-content: center; background: #f1f5f9; color: #64748b; font-weight: 600; border: 2px dashed #cbd5e1;">EVENT PHOTO 1</div>
-            <div class="image-placeholder" style="min-height: 250px; border-radius: 12px; display: flex; align-items: center; justify-content: center; background: #f1f5f9; color: #64748b; font-weight: 600; border: 2px dashed #cbd5e1;">EVENT PHOTO 2</div>
-            <div class="image-placeholder" style="min-height: 250px; border-radius: 12px; display: flex; align-items: center; justify-content: center; background: #f1f5f9; color: #64748b; font-weight: 600; border: 2px dashed #cbd5e1;">EVENT PHOTO 3</div>
-            <div class="image-placeholder" style="min-height: 250px; border-radius: 12px; display: flex; align-items: center; justify-content: center; background: #f1f5f9; color: #64748b; font-weight: 600; border: 2px dashed #cbd5e1;">EVENT PHOTO 4</div>
-            <div class="image-placeholder" style="min-height: 250px; border-radius: 12px; display: flex; align-items: center; justify-content: center; background: #f1f5f9; color: #64748b; font-weight: 600; border: 2px dashed #cbd5e1;">EVENT PHOTO 5</div>
-            <div class="image-placeholder" style="min-height: 250px; border-radius: 12px; display: flex; align-items: center; justify-content: center; background: #f1f5f9; color: #64748b; font-weight: 600; border: 2px dashed #cbd5e1;">EVENT PHOTO 6</div>
-        </div>
-    </section>
+    <!-- GALLERY SECTION (single grid, no sub-sections) -->
+    <section id="gallery" style="padding: 60px 5% 100px 5%; max-width: 1300px; margin: 0 auto;">
+        <h2 class="section-title">Gallery</h2>
 
-    <!-- FACILITIES SECTION -->
-    <section id="facilities" style="padding: 60px 5%; max-width: 1200px; margin: 0 auto;">
-        <h2 class="section-title">
-            School & Residential Facilities
-        </h2>
-        <div class="facility-grid" style="margin-top: 30px;">
-            <div class="image-placeholder" style="min-height: 250px; border-radius: 12px; display: flex; align-items: center; justify-content: center; background: #f1f5f9; color: #64748b; font-weight: 600; border: 2px dashed #cbd5e1;">FACILITY PHOTO 1</div>
-            <div class="image-placeholder" style="min-height: 250px; border-radius: 12px; display: flex; align-items: center; justify-content: center; background: #f1f5f9; color: #64748b; font-weight: 600; border: 2px dashed #cbd5e1;">FACILITY PHOTO 2</div>
-            <div class="image-placeholder" style="min-height: 250px; border-radius: 12px; display: flex; align-items: center; justify-content: center; background: #f1f5f9; color: #64748b; font-weight: 600; border: 2px dashed #cbd5e1;">FACILITY PHOTO 3</div>
-            <div class="image-placeholder" style="min-height: 250px; border-radius: 12px; display: flex; align-items: center; justify-content: center; background: #f1f5f9; color: #64748b; font-weight: 600; border: 2px dashed #cbd5e1;">FACILITY PHOTO 4</div>
-            <div class="image-placeholder" style="min-height: 250px; border-radius: 12px; display: flex; align-items: center; justify-content: center; background: #f1f5f9; color: #64748b; font-weight: 600; border: 2px dashed #cbd5e1;">FACILITY PHOTO 5</div>
-            <div class="image-placeholder" style="min-height: 250px; border-radius: 12px; display: flex; align-items: center; justify-content: center; background: #f1f5f9; color: #64748b; font-weight: 600; border: 2px dashed #cbd5e1;">FACILITY PHOTO 6</div>
-        </div>
-    </section>
-
-    <!-- VOLUNTEERS SECTION -->
-    <section id="volunteers" style="padding: 60px 5%; max-width: 1200px; margin: 0 auto; padding-bottom: 80px;">
-        <h2 class="section-title">
-            Volunteers & Supporters
-        </h2>
-        <div class="facility-grid" style="margin-top: 30px;">
-            <div class="image-placeholder" style="min-height: 250px; border-radius: 12px; display: flex; align-items: center; justify-content: center; background: #f1f5f9; color: #64748b; font-weight: 600; border: 2px dashed #cbd5e1;">VOLUNTEER PHOTO 1</div>
-            <div class="image-placeholder" style="min-height: 250px; border-radius: 12px; display: flex; align-items: center; justify-content: center; background: #f1f5f9; color: #64748b; font-weight: 600; border: 2px dashed #cbd5e1;">VOLUNTEER PHOTO 2</div>
-            <div class="image-placeholder" style="min-height: 250px; border-radius: 12px; display: flex; align-items: center; justify-content: center; background: #f1f5f9; color: #64748b; font-weight: 600; border: 2px dashed #cbd5e1;">VOLUNTEER PHOTO 3</div>
-            <div class="image-placeholder" style="min-height: 250px; border-radius: 12px; display: flex; align-items: center; justify-content: center; background: #f1f5f9; color: #64748b; font-weight: 600; border: 2px dashed #cbd5e1;">VOLUNTEER PHOTO 4</div>
-            <div class="image-placeholder" style="min-height: 250px; border-radius: 12px; display: flex; align-items: center; justify-content: center; background: #f1f5f9; color: #64748b; font-weight: 600; border: 2px dashed #cbd5e1;">VOLUNTEER PHOTO 5</div>
-            <div class="image-placeholder" style="min-height: 250px; border-radius: 12px; display: flex; align-items: center; justify-content: center; background: #f1f5f9; color: #64748b; font-weight: 600; border: 2px dashed #cbd5e1;">VOLUNTEER PHOTO 6</div>
-        </div>
+        <div class="gallery-grid" id="galleryGrid"></div>
+        <p class="gallery-empty" id="galleryEmpty" style="display:none;">No photos yet — add images to the assets folder and list their filenames in gallery.html.</p>
     </section>
 
     <!-- FOOTER -->
@@ -92,8 +76,7 @@
         <div class="footer-logo" style="margin-bottom: 25px; border: none !important; outline: none !important; box-shadow: none !important;">
             <img src="../assets/logo_ce.png" alt="Joe Andrea Illam Footer Logo" style="height: 100px !important; width: auto !important; opacity: 0.9; filter: drop-shadow(0px 2px 4px rgba(0,0,0,0.5)); border: none !important; outline: none !important;">
         </div>
-        
-        <!-- Social Media Icon Links Block -->
+
         <div class="social-links" style="margin-bottom: 20px; display: flex; justify-content: center; align-items: center; gap: 25px; flex-wrap: wrap;">
             <a href="https://www.facebook.com/share/1VLfPqakQE/" target="_blank" style="color: #94a3b8; text-decoration: none; font-weight: 600; font-size: 1.1rem; transition: color 0.3s;" onmouseover="this.style.color='#1877F2'" onmouseout="this.style.color='#94a3b8'">
                 📘 Facebook
@@ -110,7 +93,48 @@
         <p style="font-size: 0.85rem; color: #64748b; margin-top: 5px;">Providing refuge and hope since 1998.</p>
     </footer>
 
-    <!-- Script connection to keep any active logic clean -->
     <script src="../script.js"></script>
+
+    <!-- ===================================================================
+         GALLERY IMAGE LIST
+         Add every new photo's filename to this array (inside the assets folder).
+         That's the ONLY thing you need to touch when you upload new photos.
+         Example: "kids-day-1.jpg", "annual-function.png"
+    =================================================================== -->
+    <script>
+        const galleryImages = [
+            "diwali_ce.jpg",
+            "student_award.png",
+            "childrens_day.png",
+            "radio_city.png",
+            "inspiring_women2.png",
+            "inspiring_women1.png",
+            "keladi_tour.png",
+            "programme2.png",
+            "programme1.png",
+            "teachers_group.png",
+            "entrenece.png",
+            "vijay_award.png",
+            "yoga.png",
+            "food2.png",
+            "food1.png",
+            "student_teacher_group.png",
+        ];
+
+        const grid = document.getElementById("galleryGrid");
+        const emptyMsg = document.getElementById("galleryEmpty");
+
+        if (galleryImages.length === 0) {
+            emptyMsg.style.display = "block";
+        } else {
+            galleryImages.forEach((filename) => {
+                const img = document.createElement("img");
+                img.src = "../assets/" + filename;
+                img.alt = "Joe Andrea Illam - Gallery Photo";
+                img.loading = "lazy";
+                grid.appendChild(img);
+            });
+        }
+    </script>
 </body>
 </html>
